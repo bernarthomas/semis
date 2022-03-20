@@ -1,0 +1,23 @@
+{
+    "name": "bt/semis",
+    "description": "Gestion des semis",
+    "type": "library",
+    "license": "GPL-3.0-only / GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Bernard Thomas",
+            "email": "bernarthomas@free.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : ">=8.0",
+        "phpunit/phpunit": "10.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Metier\\": "metier/",
+            "Tests\\": "tests/"
+        }
+    }
+}
